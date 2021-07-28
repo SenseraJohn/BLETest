@@ -12,3 +12,4 @@ To reproduce the problem:
 This will SOMETIMES cause the SC600Y to experience a kernel panic and crash.
 
 Sometimes it crashes, sometimes it doesn't.  I do not know why it only crashes sometimes.
+See the wcnsslog.txt file for a serial crash log from the SC600Y.
