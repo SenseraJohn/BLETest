@@ -13,3 +13,6 @@ This will SOMETIMES cause the SC600Y to experience a kernel panic and crash.
 
 Sometimes it crashes, sometimes it doesn't.  I do not know why it only crashes sometimes.
 See the wcnsslog.txt file for a serial crash log from the SC600Y.
+
+
+Addition 7/28/2021:   It has been suggested that this crash happens when BLE is accessed without "Location" enabled.  I don't know precisely what that means, but I have tried it many times with Settings -> Location set to various states, and with the app-specific "ACCESS_FINE_LOCATION" declared in the manifest and granted via user dialog or from within the settings menu as described in step 3 above.  I am convinced by LOTS of testing that neither of these settings have much to do with whether the wcnss crash occurs or not.
