@@ -3,6 +3,7 @@
 This is an extremely minimal Android app that is capable of reproducing the wcnss crash on a Quectel SC600Y in Android 9.
 
 To reproduce the problem:
+
 0.  Install this app on a Quectel SC600Y device.
 1.  Make sure bluetooth is enabled on the device.
 2.  Run the app.  
